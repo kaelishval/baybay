@@ -9,6 +9,7 @@
         <h1>Adding of CLass</h1>
     
         <form action="/addclass" method="post">
+            
         Teacher Name:  <input type="text" name="teacher" autocomplete="off" value="{{old('teacher')}}"><br>
             Subject:  <input type="text" name="subject" autocomplete="off" value="{{old('subject')}}"><br>
             Time Start:  <input type="time" name="time_start" autocomplete="off" value="{{old('time_start')}}"><br>

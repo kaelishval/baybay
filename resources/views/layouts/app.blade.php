@@ -12,14 +12,18 @@
     <!-- Scripts -->
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
+
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> --}}
     {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    {{-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> --}}
     <!-- Styles -->
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> --}}
+    
     
     <style>
         table, th, td {
@@ -33,7 +37,7 @@
         </style>
 </head>
 <body>
-    <header>
+    {{-- <header>
         <div class="navbar-fixed">
             <nav>
                 <ul id="userdropdown" class="dropdown-content">
@@ -51,7 +55,7 @@
             <li><a href="/employeehome"><i class="material-icons">person</i> Employee Side</a></li>
             <li><a href="/classhome"><i class="material-icons">person</i>Create Class</a></li>
         </ul>
-    </header>
+    </header> --}}
     <main>
         <div class="row">
             <div class="col s12">
@@ -59,7 +63,7 @@
             </div>
         </div>
     </main>
-    <script
+    {{-- <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
@@ -70,6 +74,6 @@
         $('.button-collapse').show();
         $('.button-collapse').sideNav();
         $('.side-nav').sideNav();
-    </script>
+    </script> --}}
 </body>
 </html>
