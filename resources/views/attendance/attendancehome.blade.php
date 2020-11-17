@@ -21,7 +21,7 @@
     </script>
 
 <ul>
-    <h1>Today's Classes</h1>
+    <h1>Today's Classesss</h1>
     <table class="table">
         <thead class="thead-dark">
     <tr>
